@@ -6,7 +6,9 @@ function App() {
   return (
     <Container>
       <ResultSection></ResultSection>
-      <SummarySection></SummarySection>
+      <SummarySection>
+        
+      </SummarySection>
     </Container>
   );
 }
