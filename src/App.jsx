@@ -1,10 +1,13 @@
-import './App.css';
+import Container from './components/layout/Container';
+import ResultSection from './components/result/ResultSection';
+import SummarySection from './components/summary/SummarySection';
 
 function App() {
   return (
-    <div className='App'>
-      <h1 className='text-3xl font-bold underline text-center'>Hello world!</h1>
-    </div>
+    <Container>
+      <ResultSection></ResultSection>
+      <SummarySection></SummarySection>
+    </Container>
   );
 }
 

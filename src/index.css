@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -20;
+}
+
+body {
+  background-color: #ecf2ff;
+  font-family: 'Hanken Grotesk', sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#root {
+  margin: auto;
+  width: 100%;
+  z-index: -20;
+  display: flex;
+}
+
+#clip {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+}
