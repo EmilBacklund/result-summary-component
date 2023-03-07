@@ -1,7 +1,7 @@
 const SummarySection = ({ children }) => {
   return (
     <section className='pt-6 h-1/2 sm:h-auto sm:pt-[38px] pb-[46px] px-[30px] sm:px-10 w-full sm:w-1/2 sm:text-lg '>
-      <h2 className='text-lg sm:text-2xl font-bold leading-[28.13px] mb-[22px] sm:mb-[26px]'>
+      <h2 className='text-lg sm:text-2xl text-darkNavyText font-bold leading-[28.13px] mb-[22px] sm:mb-[26px]'>
         Summary
       </h2>
       <div className='justify-between flex flex-col gap-4'>{children}</div>

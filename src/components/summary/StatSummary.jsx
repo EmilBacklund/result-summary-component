@@ -8,7 +8,7 @@ const StatSummary = (props) => {
         <p>{props.adjective}</p>
       </div>
       <div className='flex gap-[7px] font-bold'>
-        <p>{props.score}</p>
+        <p className='text-darkNavyText'>{props.score}</p>
         <p className='text-darkNavyText opacity-50'>/ 100</p>
       </div>
     </div>
