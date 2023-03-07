@@ -1,6 +1,9 @@
 const Container = ({ children }) => {
   return (
-    <main className='max-w-summaryComponent flex flex-col md:flex-row shadow-xl rounded-xxxxl h-full w-full bg-white overflow-hidden m-auto relative'>
+    <main
+      id='container'
+      className='max-w-summaryComponent flex flex-col sm:flex-row  sm:rounded-xxxxl h-full w-full bg-white overflow-hidden m-auto relative'
+    >
       {children}
     </main>
   );
